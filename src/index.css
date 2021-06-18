@@ -18,7 +18,7 @@ nav {
 }
 
 #homeDiv {
-  position: fixed;
+  position: relative;
   top: 12ch;
   left: 0;
 }
@@ -93,8 +93,8 @@ footer {
 
 #banner {
   display: inline-block;
-  padding: 4ch;
-  padding-bottom: 6ch;
+  padding: 2ch;
+  padding-bottom: 2ch;
   background-image: linear-gradient(rgb(177, 180, 178), rgb(177, 190, 178), rgb(177, 200, 178));
 }
 
