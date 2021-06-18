@@ -3,9 +3,12 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <button class="nav-link" onclick="gitLink()">GitHub</button>
-      <button class="nav-link" onclick="linkedLink()">LinkedIn</button>
-      <button class="nav-link" onclick="resumeLink()">Resume</button>
+      <a className="nav-link" href="https://github.com/matthewdherold"
+              target="_blank" rel="noreferrer">GitHub</a>
+      <a className="nav-link" href="https://www.linkedin.com/in/matthew-herold-81535a1bb/"
+              target="_blank" rel="noreferrer">LinkedIn</a>
+      <a className="nav-link" href="./Assets/Resume.pdf"
+              target="_blank">Resume</a>
     </footer>
   );
 }
