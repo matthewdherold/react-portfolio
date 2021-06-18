@@ -5,7 +5,7 @@ function Home() {
     <div className="elementForm" id="homeDiv">
     <div id="banner">
       <div id="aboutMeDiv">
-  <h1>About Me</h1>
+  <h1>About Me:</h1>
   <img src=".\Assets\meAndMandy.jpg" alt="selfy with dog" id="homeImg"/>
 </div>
   <div id="homeImgDiv">
